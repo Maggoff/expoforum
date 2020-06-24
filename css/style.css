@@ -785,6 +785,10 @@ body a{
     font-size: 45px;
   }
 
+  .first__screen-block-more{
+    width: 100%;
+  }
+
   .side__menu-items{
     flex-direction: column;
     margin-bottom: 0;
@@ -833,11 +837,19 @@ body a{
 
 @media (max-width: 390px){
 
+  .header__burger{
+    margin: 0 5%;
+  }
+
+  .header__lang{
+    width: 25%;
+  }
+
   .first__screen-title{
     font-size: 35px;
   }
 
-  .first__screnn-descr{
+  .first__screen-descr{
     font-size: 20px;
   }
 
