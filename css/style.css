@@ -847,14 +847,42 @@ body a{
 
   .first__screen-title{
     font-size: 35px;
+    text-align: center;
   }
 
   .first__screen-descr{
     font-size: 20px;
+    width: 70%;
+    margin: 0 auto 10px;
+  }
+
+  .first__screen-blocks-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block{
+    width: 60%;
+  }
+
+  .first__screen-block1{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .first__screen-block3{
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
   .events__title{
     font-size: 22px;
+  }
+
+  .about__title{
+    font-size: 19px;
   }
 
 }
